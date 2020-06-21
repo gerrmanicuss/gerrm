@@ -1,5 +1,25 @@
-p {
-	
-	background-color: black;
-	color: white;
+@keyframes change-black-white{
+	0% {
+		background-color: black;
+		color: white;
+	}
+	25% {
+		background-color: white;
+		color: black;
+	}
+	50% {
+		background-color: black;
+		color: white;
+	}
+	75% {
+		background-color: white;
+		color: black;
+	}
+	100% {
+		background-color: black;
+		color: white;
+	}
+}
+.animation-color {
+	animation: change-black-white  10s infinite;
 };
